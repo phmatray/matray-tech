@@ -18,9 +18,26 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="favicon.ico" />
     <Content Include="img\back.jpg" />
+    <Content Include="img\light1.png" />
+    <Content Include="img\light2.png" />
+    <Content Include="img\light3.png" />
+    <Content Include="img\light4.png" />
+    <Content Include="img\light5.png" />
+    <Content Include="img\light6.png" />
+    <Content Include="img\myAvatar.svg" />
     <Content Include="index.html" />
-    <Content Include="style.css" />
+    <Content Include="style.css.map">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
+    <None Include="style.less" />
+    <Content Include="style.css">
+      <DependentUpon>style.less</DependentUpon>
+    </Content>
+    <Content Include="style.min.css">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
