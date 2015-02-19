@@ -19,9 +19,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="img\back.jpg" />
-    <Content Include="img\myAvatar.svg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="index.html" />
     <Content Include="style.css" />
     <Content Include="web.config" />

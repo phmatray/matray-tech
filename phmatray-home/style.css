@@ -68,3 +68,55 @@ hr {
 .fa {
     margin-right: 10px;
 }
+
+/* Hairs */
+#SvgjsPath4380, #SvgjsPath4381, #SvgjsPath4382 {
+    -moz-transition: fill 2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    -o-transition: fill 2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    -webkit-transition: fill 2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: fill 2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+#avatar-wrapper:hover #SvgjsPath4380 {
+    fill: #e89228;
+}
+
+#avatar-wrapper:hover #SvgjsPath4381 {
+    fill: #fabb2b;
+}
+
+#avatar-wrapper:hover #SvgjsPath4382 {
+    fill: #f7f3ba;
+}
+
+/* Eyebrows*/
+#SvgjsPath4057, #SvgjsPath4058 {
+    -moz-transition: fill 2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    -o-transition: fill 2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    -webkit-transition: fill 2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: fill 2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+#avatar-wrapper:hover #SvgjsPath4057, #avatar-wrapper:hover #SvgjsPath4058 {
+    fill: #e89228;
+}
+
+/* Eyes */
+#SvgjsPath4610, #SvgjsPath4611, #SvgjsPath4612, #SvgjsPath4615, #SvgjsPath4616, #SvgjsPath4617 {
+    -moz-transition: fill 2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    -o-transition: fill 2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    -webkit-transition: fill 2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: fill 2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+#avatar-wrapper:hover #SvgjsPath4610, #avatar-wrapper:hover #SvgjsPath4615 {
+    fill: #00c2af;
+}
+
+#avatar-wrapper:hover #SvgjsPath4611, #avatar-wrapper:hover #SvgjsPath4616 {
+    fill: #00c3b8;
+}
+
+#avatar-wrapper:hover #SvgjsPath4612, #avatar-wrapper:hover #SvgjsPath4617 {
+    fill: #00574e;
+}
