@@ -46,6 +46,9 @@ hr {
 .fa {
   margin-right: 10px;
 }
+body > a {
+  font-style: italic;
+}
 /* Super Saiyajin */
 svg {
   z-index: 2;
@@ -77,43 +80,43 @@ svg {
   margin-right: -140px;
   margin-bottom: 0;
 }
-#avatar-wrapper:hover {
+#avatar-wrapper.super-saiyan {
   /* Hairs */
   /* Eyebrows*/
   /* Eyes */
   /* Lightning */
 }
-#avatar-wrapper:hover #SvgjsPath4380 {
+#avatar-wrapper.super-saiyan #SvgjsPath4380 {
   fill: #e89228;
 }
-#avatar-wrapper:hover #SvgjsPath4381 {
+#avatar-wrapper.super-saiyan #SvgjsPath4381 {
   fill: #fabb2b;
 }
-#avatar-wrapper:hover #SvgjsPath4382 {
+#avatar-wrapper.super-saiyan #SvgjsPath4382 {
   fill: #f7f3ba;
 }
-#avatar-wrapper:hover #SvgjsPath4057,
-#avatar-wrapper:hover #SvgjsPath4058 {
+#avatar-wrapper.super-saiyan #SvgjsPath4057,
+#avatar-wrapper.super-saiyan #SvgjsPath4058 {
   fill: #e89228;
 }
-#avatar-wrapper:hover #SvgjsPath4610,
-#avatar-wrapper:hover #SvgjsPath4615 {
+#avatar-wrapper.super-saiyan #SvgjsPath4610,
+#avatar-wrapper.super-saiyan #SvgjsPath4615 {
   fill: #00c2af;
 }
-#avatar-wrapper:hover #SvgjsPath4611,
-#avatar-wrapper:hover #SvgjsPath4616 {
+#avatar-wrapper.super-saiyan #SvgjsPath4611,
+#avatar-wrapper.super-saiyan #SvgjsPath4616 {
   fill: #00c3b8;
 }
-#avatar-wrapper:hover #SvgjsPath4612,
-#avatar-wrapper:hover #SvgjsPath4617 {
+#avatar-wrapper.super-saiyan #SvgjsPath4612,
+#avatar-wrapper.super-saiyan #SvgjsPath4617 {
   fill: #00574e;
 }
-#avatar-wrapper:hover #light1,
-#avatar-wrapper:hover #light2,
-#avatar-wrapper:hover #light3,
-#avatar-wrapper:hover #light4,
-#avatar-wrapper:hover #light5,
-#avatar-wrapper:hover #light6 {
+#avatar-wrapper.super-saiyan #light1,
+#avatar-wrapper.super-saiyan #light2,
+#avatar-wrapper.super-saiyan #light3,
+#avatar-wrapper.super-saiyan #light4,
+#avatar-wrapper.super-saiyan #light5,
+#avatar-wrapper.super-saiyan #light6 {
   opacity: 1;
 }
 .light-base {
