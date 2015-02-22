@@ -26,6 +26,7 @@
     <Content Include="img\light4.png" />
     <Content Include="img\light5.png" />
     <Content Include="img\light6.png" />
+    <Content Include="img\light7.png" />
     <Content Include="img\myAvatar.svg" />
     <Content Include="index.html" />
     <Content Include="style.css.map">

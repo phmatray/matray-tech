@@ -27,39 +27,51 @@
     <h1 id="lastName">Matray</h1>
 
     <p>Bienvenue chez moi ! Je suis un développeur belge, passionné par les technologies Microsoft, le web, l'enseignement et la musique. Voici mon espace personnel où vous trouverez des passerelles vers mes différentes activités créatives. Bonne visite !</p>
-
-    <div class="row">
+    
+    <!-- Using SVG images on Azure Websites -->
+    <!-- http://eblog.cloudplush.com/2014/08/23/using-svg-images-on-azure-websites/ -->
+    <div id="avatar-wrapper" style="z-index: 20;">
+        <div ng-include="'img/myAvatar.svg'"></div>
+        <img id="light1" src="img/light1.png" alt="" />
+        <img id="light2" src="img/light2.png" alt="" />
+        <img id="light3" src="img/light3.png" alt="" />
+        <img id="light4" src="img/light4.png" alt="" />
+        <img id="light5" src="img/light5.png" alt="" />
+        <img id="light6" src="img/light6.png" alt="" />
+    </div>
+    
+    <div class="row" style="z-index: 25;">
         <div class="col-md-6">
             <ul>
                 <li>
                     <a href="http://phmatray.azurewebsites.net/">
                         <span class="fa fa-user fa-fw fa-2x"></span>À propos
                     </a>
-                    <hr/>
+                    <hr style="z-index: 25;" />
                 </li>
                 <li>
                     <a href="http://ccross.azurewebsites.net/">
                         <span class="fa fa-briefcase fa-fw fa-2x"></span>CCross
                     </a>
-                    <hr/>
+                    <hr style="z-index: 25;" />
                 </li>
                 <li>
                     <a href="http://eduportfolio.azurewebsites.net/">
                         <span class="fa fa-coffee fa-fw fa-2x"></span>Portfolio éducatif
                     </a>
-                    <hr/>
+                    <hr />
                 </li>
                 <li>
                     <a href="http://dotnetcoffee.blogspot.be/">
                         <span class="fa fa-book fa-fw fa-2x"></span>Blog
                     </a>
-                    <hr/>
+                    <hr style="z-index: -100;" />
                 </li>
                 <li>
                     <a href="mailto:phmatray@gmail.com">
                         <span class="fa fa-envelope-o fa-fw fa-2x"></span>Contactez-moi
                     </a>
-                    <hr/>
+                    <hr />
                 </li>
             </ul>
         </div>
@@ -69,46 +81,34 @@
                     <a href="https://soundcloud.com/philippe-matray">
                         <span class="fa fa-soundcloud fa-fw fa-2x"></span>SoundCloud
                     </a>
-                    <hr/>
+                    <hr />
                 </li>
                 <li>
                     <a href="https://www.facebook.com/phmatray">
                         <span class="fa fa-facebook-official fa-fw fa-2x"></span>Facebook
                     </a>
-                    <hr/>
+                    <hr />
                 </li>
                 <li>
                     <a href="http://be.linkedin.com/in/phmatray/fr">
                         <span class="fa fa-linkedin-square fa-fw fa-2x"></span>LinkedIn
                     </a>
-                    <hr/>
+                    <hr />
                 </li>
                 <li>
                     <a href="https://twitter.com/phmatray">
                         <span class="fa fa-twitter fa-fw fa-2x"></span>Twitter
                     </a>
-                    <hr/>
+                    <hr />
                 </li>
                 <li>
                     <a href="http://stackoverflow.com/users/2409554/philippe-matray">
                         <span class="fa fa-stack-overflow fa-fw fa-2x"></span>Stack Overflow
                     </a>
-                    <hr/>
+                    <hr />
                 </li>
             </ul>
         </div>
-    </div>
-
-    <!-- Using SVG images on Azure Websites -->
-    <!-- http://eblog.cloudplush.com/2014/08/23/using-svg-images-on-azure-websites/ -->
-    <div id="avatar-wrapper">
-        <div ng-include="'img/myAvatar.svg'"></div>
-        <img id="light1" src="img/light1.png" alt=""/>
-        <img id="light2" src="img/light2.png" alt=""/>
-        <img id="light3" src="img/light3.png" alt=""/>
-        <img id="light4" src="img/light4.png" alt=""/>
-        <img id="light5" src="img/light5.png" alt=""/>
-        <img id="light6" src="img/light6.png" alt=""/>
     </div>
 
 </div>
