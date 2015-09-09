@@ -1,0 +1,15 @@
+﻿{
+    "firstName": "Philippe",
+    "lastName": "Matray",
+    "description": "Welcome to my home space ! I am a Belgian developer, passionate about Microsoft technologies, the Web, education and music. This is my personal space where you will find gateways to my various creative activities. Good visit !",
+    "link.About": "About me",
+    "link.CCross": "CCross",
+    "link.Eduportfolio": "Teaching portfolio",
+    "link.Blog": "Blog - Dotnet Coffee",
+    "link.SoundCloud": "SoundCloud",
+    "link.Facebook": "Facebook",
+    "link.LinkedIn": "LinkedIn",
+    "link.Twitter": "Twitter",
+    "link.StackOverflow": "Stack Overflow",
+    "link.CoderDojo": "CoderDojo Liège"
+}

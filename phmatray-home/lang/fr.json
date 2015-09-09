@@ -1,0 +1,15 @@
+﻿{
+    "firstName": "Philippe",
+    "lastName": "Matray",
+    "description": "Bienvenue chez moi ! Je suis un développeur belge, passionné par les technologies Microsoft, le web, l'enseignement et la musique. Voici mon espace personnel où vous trouverez des passerelles vers mes différentes activités créatives. Bonne visite !",
+    "link.About": "À propos",
+    "link.CCross": "CCross",
+    "link.Eduportfolio": "Portfolio éducatif",
+    "link.Blog": "Blog - Dotnet Coffee",
+    "link.SoundCloud": "SoundCloud",
+    "link.Facebook": "Facebook",
+    "link.LinkedIn": "LinkedIn",
+    "link.Twitter": "Twitter",
+    "link.StackOverflow": "Stack Overflow",
+    "link.CoderDojo": "CoderDojo Liège"
+}

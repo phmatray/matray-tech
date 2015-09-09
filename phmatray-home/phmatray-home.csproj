@@ -16,8 +16,10 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="app.js" />
     <Content Include="favicon.ico" />
     <Content Include="img\back.jpg" />
     <Content Include="img\light1.png" />
@@ -32,6 +34,9 @@
     <Content Include="style.css.map">
       <DependentUpon>style.css</DependentUpon>
     </Content>
+    <Content Include="lang\fr.json" />
+    <Content Include="lang\en.json" />
+    <Content Include="lang\leet.json" />
     <None Include="style.less" />
     <Content Include="style.css">
       <DependentUpon>style.less</DependentUpon>
@@ -42,7 +47,6 @@
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="phmatray-home.pubxml" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
