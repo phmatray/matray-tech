@@ -13,8 +13,11 @@ a:visited {
   transition: color .3s;
 }
 a:hover,
-a:active,
-.active {
+a:active {
+  color: #ffda01;
+  text-decoration: none;
+}
+a.active {
   color: #ffda01;
   text-decoration: none;
 }

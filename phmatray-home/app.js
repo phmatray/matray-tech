@@ -14,6 +14,7 @@ function AppCtrl($translate) {
     vm.useEnglish = useEnglish;
     vm.useLeet = useLeet;
     vm.currentLang = currentLang;
+    vm.getClass = getClass;
 
     function useFrench() {
         $translate.use('fr');
@@ -25,6 +26,12 @@ function AppCtrl($translate) {
 
     function useLeet() {
         $translate.use('leet');
+    }
+
+    function getClass(lang) {
+        var curLang = this.currentLang();
+        var result = curLang === lang ? 'active' : '';
+        return result;
     }
 
     function currentLang() {

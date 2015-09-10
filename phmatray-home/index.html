@@ -37,11 +37,11 @@
     <h1 id="lastName" translate>lastName</h1>
 
     <p style="margin-bottom: 0;">
-        <a ng-click="vm.useFrench()" ng-class="{'active': vm.currentLang() === 'fr'}" href>Français</a>
+        <a ng-click="vm.useFrench()" ng-class="vm.getClass('fr')" href>Français</a>
         &nbsp;-&nbsp;
-        <a ng-click="vm.useEnglish()" ng-class="{'active': vm.currentLang() === 'en'}" href>English</a>
+        <a ng-click="vm.useEnglish()" ng-class="vm.getClass('en')" href>English</a>
         &nbsp;-&nbsp;
-        <a ng-click="vm.useLeet()" ng-class="{'active': vm.currentLang() === 'leet'}" href>Leet</a>
+        <a ng-click="vm.useLeet()" ng-class="vm.getClass('leet')" href>Leet</a>
     </p>
 
     <p translate>description</p>
