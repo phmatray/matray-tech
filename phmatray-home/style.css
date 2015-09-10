@@ -4,16 +4,6 @@
   font-family: 'Segoe UI';
   font-size: 16px;
 }
-.animated {
-  -moz-animation-duration: 1s;
-  -o-animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -moz-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
 a {
   color: #fff;
   -moz-transition: color .3s;
@@ -58,6 +48,16 @@ hr {
 }
 .fa {
   margin-right: 10px;
+}
+.animated {
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 body > a {
   font-style: italic;

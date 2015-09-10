@@ -5,34 +5,25 @@ body {
     font-size: 16px;
 }
 
-.animated {
-    -moz-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -moz-animation-fill-mode: both;
-    -o-animation-fill-mode: both;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
-
 a {
     color: #fff;
     -moz-transition: color .3s;
     -o-transition: color .3s;
     -webkit-transition: color .3s;
     transition: color .3s;
+    
+    &:hover, 
+    &:active {
+        color: #ffda01;
+        text-decoration: none;
+    }
+
+    &.active {
+        color: #ffda01;
+        text-decoration: none;
+    }
 }
 
-a:hover, a:active {
-    color: #ffda01;
-    text-decoration: none;
-}
-
-a.active {
-    color: #ffda01;
-    text-decoration: none;
-}
 
 ul {
     margin-left: -40px;
@@ -70,8 +61,16 @@ hr {
     margin-right: 10px;
 }
 
-
-
+.animated {
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
 
 body > a {
     font-style: italic;
