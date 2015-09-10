@@ -19,9 +19,11 @@
     <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="about.html" />
     <Content Include="app.js" />
     <Content Include="favicon.ico" />
     <Content Include="img\back.jpg" />
+    <Content Include="img\clouds.png" />
     <Content Include="img\light1.png" />
     <Content Include="img\light2.png" />
     <Content Include="img\light3.png" />
@@ -30,6 +32,8 @@
     <Content Include="img\light6.png" />
     <Content Include="img\light7.png" />
     <Content Include="img\myAvatar.svg" />
+    <Content Include="img\stars.png" />
+    <Content Include="img\twinkling.png" />
     <Content Include="index.html" />
     <Content Include="style.css.map">
       <DependentUpon>style.css</DependentUpon>
