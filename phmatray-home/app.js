@@ -1,7 +1,7 @@
 ﻿'use strict';
 
 var app = angular
-    .module('myApp', ['ngCookies', 'pascalprecht.translate'])
+    .module('myApp', ['ngCookies', 'pascalprecht.translate', 'angular-loading-bar'])
     .controller('AppCtrl', AppCtrl);
 
 AppCtrl.$inject = ['$translate'];
@@ -48,4 +48,8 @@ app.config(function($translateProvider) {
     $translateProvider.preferredLanguage('fr');
     $translateProvider.fallbackLanguage('fr');
     $translateProvider.useLocalStorage();
+});
+
+app.config(function(cfpLoadingBarProvider) {
+    cfpLoadingBarProvider.includeSpinner = false;
 });

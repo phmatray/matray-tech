@@ -5,7 +5,18 @@ body {
     font-size: 16px;
 }
 
-a, a:visited {
+.animated {
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+a {
     color: #fff;
     -moz-transition: color .3s;
     -o-transition: color .3s;
