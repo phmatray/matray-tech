@@ -1,4 +1,5 @@
-﻿body {
+﻿/* Common */
+body {
   background-image: url(img/back.jpg);
   color: #fff;
   font-family: 'Segoe UI';
@@ -27,6 +28,9 @@ ul {
 li {
   list-style: none;
   margin-bottom: 20px;
+}
+li:last-child {
+  margin-bottom: 50px;
 }
 p {
   margin-top: 30px;
