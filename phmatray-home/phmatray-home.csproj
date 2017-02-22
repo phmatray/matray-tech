@@ -41,6 +41,7 @@
     <Content Include="lang\fr.json" />
     <Content Include="lang\en.json" />
     <Content Include="lang\leet.json" />
+    <None Include="phmatray-home - Web Deploy.pubxml" />
     <None Include="style.less" />
     <Content Include="style.css">
       <DependentUpon>style.less</DependentUpon>
