@@ -36,20 +36,10 @@
     <Content Include="img\stars.png" />
     <Content Include="img\twinkling.png" />
     <Content Include="index.html" />
-    <Content Include="style.css.map">
-      <DependentUpon>style.css</DependentUpon>
-    </Content>
+    <Content Include="site.css" />
     <Content Include="lang\fr.json" />
     <Content Include="lang\en.json" />
     <Content Include="lang\leet.json" />
-    <None Include="matray-tech - Web Deploy.pubxml" />
-    <None Include="style.less" />
-    <Content Include="style.css">
-      <DependentUpon>style.less</DependentUpon>
-    </Content>
-    <Content Include="style.min.css">
-      <DependentUpon>style.css</DependentUpon>
-    </Content>
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
